@@ -1,0 +1,50 @@
+.menu1 a.nav-link{
+    background-color:red;
+    line-height: 50px;
+    border-right: solid 2px yellow;
+    color: aqua;
+    transition: all .5s;
+}
+.menu2 a.nav-link{
+    background-color:khaki;
+    line-height: 50px;
+    border-right: solid 2px magenta;
+    color: grey;
+    transition: all .5s;
+}
+.menu3 a.nav-link{
+    background-color:peru;
+    line-height: 50px;
+    border-right: solid 2px mediumorchid;
+    color: cornflowerblue;
+    transition: all .5s;
+}
+.menu4 a.nav-link{
+    background-color:olivedrab;
+    line-height: 50px;
+    border-right: solid 2px gold;
+    color:darkorange;
+    transition: all .5s;
+}
+.menu5 a.nav-link{
+    background-color:hotpink;
+    line-height: 50px;
+    border-right: solid 2px blue;
+    color:floralwhite;
+    transition: all .5s;
+}
+.menu1 a.nav-link:hover{
+    background-color: black
+}
+.menu2 a.nav-link:hover{
+    background-color: navy
+}
+.menu3 a.nav-link:hover{
+    background-color: white
+}
+.menu4 a.nav-link:hover{
+    background-color: plum
+}
+.menu5 a.nav-link:hover{
+    background-color: lawngreen
+}

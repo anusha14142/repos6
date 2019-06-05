@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        var ar=[20,30,40,50];
+        // while, do while, for, for in, for of,for each
+        var count=ar.length;
+        console.group('while');
+        //while
+        var i=0;
+        while (i<count) {
+            console.log(ar[i]);
+            i++;
+        }
+        console.groupEnd();
+        console.group( 'do while');
+    // do while 
+    var a=0;
+    do{
+        console.log("success");
+        console.log(ar[a]);
+        a++;
+    } 
+    while(a<count)       
+    console.groupEnd();
+// for     
+console.group( 'for');
+ for(var x=0; x<count; x++){
+     console.log(ar[x]);
+ }
+ console.groupEnd();
+ // for of
+console.group( 'for of');
+for(let value of ar){
+    console.log(value);
+}
+console.groupEnd();
+//for in
+console.group( 'for in');
+for(let value in ar){
+    console.log(value);
+}
+console.groupEnd();
+// for each
+console.group( 'for each');
+ar.forEach(
+function(value,key){
+    console.log(value,key);
+}
+)
+console.groupEnd();
+// index of
+console.group( 'index of');
+var ans=ar.indexOf(50);
+console.log(ans);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
